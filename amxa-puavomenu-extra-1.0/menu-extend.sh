@@ -14,10 +14,17 @@ APPS=$(cd /usr/share/applications; ls *desktop|sed 's/.desktop//g'|xargs)
 echo "---" > /etc/puavomenu/menudata.yaml
 echo >> /etc/puavomenu/menudata.yaml
 echo "programs:" >> /etc/puavomenu/menudata.yaml
+
 echo "  - obs:" >> /etc/puavomenu/menudata.yaml
 echo "          icon: /usr/share/icons/hicolor/256x256/apps/obs.png" >> /etc/puavomenu/menudata.yaml
 echo >> /etc/puavomenu/menudata.yaml
-MENU="$MENU obs"
+
+echo "  - gummi:" >> /etc/puavomenu/menudata.yaml
+echo "          description: Einfache Latex Umgebung" >> /etc/puavomenu/menudata.yaml
+echo >> /etc/puavomenu/menudata.yaml
+
+
+MENU="$MENU obs gummi"
 
 for A in $APPS; do
     FOUND=false
@@ -133,6 +140,9 @@ menus:
             fi: Ohjelmointiympäristöjä
         icon: /usr/share/icons/Faenza/categories/48/gnome-devel.png
         programs:
+            - asebastudio
+            - thymiovpl
+            - primalogo
             - arduino
             - fritzing
             - teddybear
@@ -157,6 +167,8 @@ menus:
             - Nightcode
 #
             - dosbox
+            - thymiownetconfig
+            - thymioupgrader
 
   - menu-education:
         name:
@@ -239,6 +251,7 @@ menus:
 #            - t-lasku
 #
             - gummi
+            - texmaker
             - pdfshuffler
             - xmind
 
@@ -557,6 +570,9 @@ menus:
             - primalogo
             - blockly
 #
+            - thymiovpl
+            - asebastudio
+            - asebaplayground
             - arduino
             - fritzing
             - teddybear
