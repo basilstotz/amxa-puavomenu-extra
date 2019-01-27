@@ -1,0 +1,15 @@
+Source: amxa-puavomenu-extra
+Section: unknown
+Priority: optional
+Maintainer: Basil Stotz <stotz@amxa.ch>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: https://anonscm.debian.org/collab-maint/amxa-puavomenu-extra.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/amxa-puavomenu-extra.git
+
+Package: amxa-puavomenu-extra
+Architecture: all
+Depends: ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
