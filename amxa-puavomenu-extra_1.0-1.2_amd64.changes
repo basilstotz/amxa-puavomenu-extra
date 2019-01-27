@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Sun, 27 Jan 2019 15:29:58 +0100
+Source: amxa-puavomenu-extra
+Binary: amxa-puavomenu-extra
+Architecture: source all
+Version: 1.0-1.2
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Basil Stotz <stotz@amxa.ch>
+Changed-By: Stotz Basil <stotz.basil@builder4>
+Description:
+ amxa-puavomenu-extra - <insert up to 60 chars description>
+Changes:
+ amxa-puavomenu-extra (1.0-1.2) UNRELEASED; urgency=medium
+ .
+   [ Basil Stotz ]
+   * Non-maintainer upload.
+   *
+ .
+   [ Stotz Basil ]
+   * fix postinst
+Checksums-Sha1:
+ a2657cfb913d3134b9d3ea185b6f8af039c5229a 626 amxa-puavomenu-extra_1.0-1.2.dsc
+ 40c004ae5416a409488e12c441db2c12b344a91c 14097 amxa-puavomenu-extra_1.0-1.2.tar.gz
+ 59ec899210e6e2f9005ea0c3789e24fe502115e6 1634 amxa-puavomenu-extra_1.0-1.2_all.deb
+ 8d7fa69de6801d1e66c9c1f205622ef68cde59d4 5276 amxa-puavomenu-extra_1.0-1.2_amd64.buildinfo
+Checksums-Sha256:
+ 2be6ae260e64a10d72d4ed307f3aa6753b190dbc14138a68a2bb5c61638d9152 626 amxa-puavomenu-extra_1.0-1.2.dsc
+ e7505af35a1d140dfaad6f4784759831ec9321bdfa0ef8ee247fe1adf2522131 14097 amxa-puavomenu-extra_1.0-1.2.tar.gz
+ cbd3f49bedfe096a0523379e98502da986e074734b09e92f2c15567c2077c0a2 1634 amxa-puavomenu-extra_1.0-1.2_all.deb
+ 52a38573732c47f754382acebbe9d8463587753ee5ca8dca0238553a489bcb88 5276 amxa-puavomenu-extra_1.0-1.2_amd64.buildinfo
+Files:
+ 8876d50ca2b7b27a3e3c32431d2ceb96 626 unknown optional amxa-puavomenu-extra_1.0-1.2.dsc
+ c967b7c6198e443b43efe09478940e12 14097 unknown optional amxa-puavomenu-extra_1.0-1.2.tar.gz
+ a8b8d03818e5eff1446a142c3431461d 1634 unknown optional amxa-puavomenu-extra_1.0-1.2_all.deb
+ 439050daf64739a36472475cc81ae861 5276 unknown optional amxa-puavomenu-extra_1.0-1.2_amd64.buildinfo

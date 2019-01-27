@@ -2,19 +2,19 @@ Format: 1.0
 Source: amxa-puavomenu-extra
 Binary: amxa-puavomenu-extra
 Architecture: all source
-Version: 1.0-1.1
+Version: 1.0-1.2
 Checksums-Md5:
- f02edefbb51eb954d65869b4e2db590c 626 amxa-puavomenu-extra_1.0-1.1.dsc
- fb3e77cdbba00d893bbf738c4c3b32b3 1604 amxa-puavomenu-extra_1.0-1.1_all.deb
+ 8876d50ca2b7b27a3e3c32431d2ceb96 626 amxa-puavomenu-extra_1.0-1.2.dsc
+ a8b8d03818e5eff1446a142c3431461d 1634 amxa-puavomenu-extra_1.0-1.2_all.deb
 Checksums-Sha1:
- a7802a8ad21b79881882eb54fee8fe4da42a10e3 626 amxa-puavomenu-extra_1.0-1.1.dsc
- a5cdf943e5714b9033e7384d1d2e9d37adf8cfa0 1604 amxa-puavomenu-extra_1.0-1.1_all.deb
+ a2657cfb913d3134b9d3ea185b6f8af039c5229a 626 amxa-puavomenu-extra_1.0-1.2.dsc
+ 59ec899210e6e2f9005ea0c3789e24fe502115e6 1634 amxa-puavomenu-extra_1.0-1.2_all.deb
 Checksums-Sha256:
- e8782453d3bad3e0b564727dc2ff172819a307e0e23a374deae24e95696593f5 626 amxa-puavomenu-extra_1.0-1.1.dsc
- 182dd15406a28e56d6346976dbd300e6791fcd6df6fcc4b514cf3065ad2d020b 1604 amxa-puavomenu-extra_1.0-1.1_all.deb
+ 2be6ae260e64a10d72d4ed307f3aa6753b190dbc14138a68a2bb5c61638d9152 626 amxa-puavomenu-extra_1.0-1.2.dsc
+ cbd3f49bedfe096a0523379e98502da986e074734b09e92f2c15567c2077c0a2 1634 amxa-puavomenu-extra_1.0-1.2_all.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Sun, 27 Jan 2019 15:12:15 +0100
+Build-Date: Sun, 27 Jan 2019 15:30:18 +0100
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -167,7 +167,8 @@ Installed-Build-Depends:
  xz-utils (= 5.2.2-1.2+b1),
  zlib1g (= 1:1.2.8.dfsg-5)
 Environment:
- DEB_BUILD_OPTIONS="parallel=1"
+ DEB_BUILD_OPTIONS="parallel=4"
  LANG="de_CH.UTF-8"
+ LD_LIBRARY_PATH="/opt/nwjs:"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1548598301"
+ SOURCE_DATE_EPOCH="1548599398"
